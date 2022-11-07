@@ -12,7 +12,7 @@
         </form>
 
         <div class="card" v-if="empleado">
-            <h1>{{this.empleado.apellido}}, {{this.empleado.oficio}}</h1>
+            <h1>{{this.empleado.apellido}}, {{this.empleado.oficio}}, {{this.empleado.departamento}}</h1>
             <h2 style="color:green">{{this.empleado.salario}}€</h2>
         </div>
     </div>
